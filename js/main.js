@@ -30,7 +30,8 @@ jQuery(document).ready(function( $ ) {
  *Animations
  */
 
- $('#services article').on('mounseenter', function(event){ 
+ $('#services article').on('mouseenter', function(event){
+   console.log("i did it boois")
    event.stopPropagation();
    $(this).find('img').animateCss('rubberBand');
  });
@@ -66,5 +67,4 @@ $("#menu-btn").on('click', function(event){
   });
 
 });
-
 
