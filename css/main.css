@@ -667,7 +667,6 @@ img {
     #contact .wait-list {
         padding: 6rem 0;
     }
-
 }
 
 
@@ -709,9 +708,9 @@ img {
         justify-content: space-between;
         align-items: center;
     }
+
+  
 }
-
-
 
 @media screen and (min-width: 1024px) {
     h1 {
@@ -886,13 +885,19 @@ img {
 
 #work article a {
     filter: grayscale(100%);
-    width: 25%;
+    width: 50%;
     display: block;
     border-style: solid;
     border-size: 200px;
     border-color: white;
     cursor: pointer;
     transition: 0.3s;
+}
+
+@media screen and (min-width: 768px) {
+    #work article a {
+        width: 25%;
+    }
 }
 
 #work article a img {
@@ -914,13 +919,12 @@ img {
 }
 
 #work .readmore {
-  background-color: #EE582F; 
-  border: bottom;
-  border-color: white;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  display: inline-block;
-  font-size: 22px;
-  width: 100%;
+    background-color: #EE582F;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 22px;
+    width: 100%;
 }
