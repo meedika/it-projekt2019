@@ -78,16 +78,16 @@ jQuery(document).ready(function($) {
         var slikice = $("#hair .more");
 
         if ($this.hasClass('is-active')) {
-            //Opened menu
+            //zapremo meni
             $this.removeClass('is-active')
             $this.html ('Show more')
             slikice.addClass('hidden')
 
            
         } else {
-            //Closed menu
-            $this.addClass('is-active')
             
+            $this.addClass('is-active')
+            //odpremo meni
             $this.html ('Show less')
             slikice.removeClass('hidden')
         }
@@ -103,16 +103,16 @@ jQuery(document).ready(function($) {
         var slikice = $("#beard .more");
 
         if ($this.hasClass('is-active')) {
-            //Opened menu
+            //zapremo meni
             $this.removeClass('is-active')
             $this.html ('Show more')
             slikice.addClass('hidden')
 
            
         } else {
-            //Closed menu
-            $this.addClass('is-active')
             
+            $this.addClass('is-active')
+            //odpremo meni
             $this.html ('Show less')
             slikice.removeClass('hidden')
         }
@@ -128,16 +128,16 @@ $("#moustache button.readmore").on('click', function(event) {
         var slikice = $("#moustache .more");
 
         if ($this.hasClass('is-active')) {
-            //Opened menu
+            //zapremo meni
             $this.removeClass('is-active')
             $this.html ('Show more')
             slikice.addClass('hidden')
 
            
         } else {
-            //Closed menu
-            $this.addClass('is-active')
             
+            $this.addClass('is-active')
+            //odpremo meni
             $this.html ('Show less')
             slikice.removeClass('hidden')
         }
