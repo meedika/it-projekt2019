@@ -884,7 +884,7 @@ img {
     justify-content: space-around;
 }
 
-#work a {
+#work article a {
     filter: grayscale(100%);
     width: 25%;
     display: block;
@@ -895,7 +895,7 @@ img {
     transition: 0.3s;
 }
 
-#work a img {
+#work article a img {
     width: 100%;
 }
 
@@ -906,4 +906,21 @@ img {
 
 #work img:hover {
     opacity: 0.7;
+
+}
+
+#work .hidden {
+    display: none;
+}
+
+#work .readmore {
+  background-color: #EE582F; 
+  border: bottom;
+  border-color: white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 22px;
+  width: 100%;
 }

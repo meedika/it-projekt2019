@@ -32,7 +32,8 @@ body.lb-disable-scrolling {
   border-radius: 3px;
 
   /* Image border */
-  border: 4px solid white;
+  border: 4px white;
+ ;
 }
 
 .lightbox a img {
@@ -46,6 +47,7 @@ body.lb-disable-scrolling {
   height: 250px;
   margin: 0 auto;
   border-radius: 4px;
+
 
   /* Background color behind image.
      This is visible during transitions. */
@@ -116,6 +118,7 @@ body.lb-disable-scrolling {
 .lb-nav a.lb-prev:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
+
 }
 
 .lb-nav a.lb-next {
